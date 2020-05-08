@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ACTUALIZAR CLIENTE" />
+
+        <TextView
+            android:id="@+id/textAView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre:" />
+
+        <EditText
+            android:id="@+id/txtANombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Escribe el nombre del cliente" />
+
+        <TextView
+            android:id="@+id/textAView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Celular:" />
+
+        <EditText
+            android:id="@+id/txtACelular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Escribe Numero Celular" />
+
+        <TextView
+            android:id="@+id/textAView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Domicilio:" />
+
+        <EditText
+            android:id="@+id/txtADomicilio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Escribe Domicilio" />
+
+        <TextView
+            android:id="@+id/textAView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ACTUALIZAR PEDIDO"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textAView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cantidad:" />
+
+        <EditText
+            android:id="@+id/txtACantidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textAView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entregado:" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioATrue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Entregado" />
+
+            <RadioButton
+                android:id="@+id/radioAFalse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sin entregar" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textAView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Precio:" />
+
+        <EditText
+            android:id="@+id/txtAPrecio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="$"/>
+
+        <TextView
+            android:id="@+id/textAView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Producto:" />
+
+        <EditText
+            android:id="@+id/txtAProducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Escribe el nombre del producto"/>
+
+        <Button
+            android:id="@+id/btnActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actualizar" />
+
+        <Button
+            android:id="@+id/btnRegresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Regresar" />
+    </LinearLayout>
+
+</ScrollView>
